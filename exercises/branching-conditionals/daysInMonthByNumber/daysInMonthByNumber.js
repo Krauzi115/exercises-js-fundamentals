@@ -21,6 +21,7 @@ function daysInMonthByNumber(monthNum) {
   }
 
   // This is your job. :)
+  return (monthNum) 
 }
 
 if (require.main === module) {
@@ -29,18 +30,18 @@ if (require.main === module) {
   // The _____ is meant to be "fill in the blank"
   // Loop up how many days are in each month.
 
-  console.log(daysInMonthByNumber(1) === _____);
-  console.log(daysInMonthByNumber(2) === _____);
-  console.log(daysInMonthByNumber(3) === _____);
-  console.log(daysInMonthByNumber(4) === _____);
-  console.log(daysInMonthByNumber(5) === _____);
-  console.log(daysInMonthByNumber(6) === _____);
-  console.log(daysInMonthByNumber(7) === _____);
-  console.log(daysInMonthByNumber(8) === _____);
-  console.log(daysInMonthByNumber(9) === _____);
-  console.log(daysInMonthByNumber(10) === _____);
-  console.log(daysInMonthByNumber(11) === _____);
-  console.log(daysInMonthByNumber(12) === _____);
+  console.log(daysInMonthByNumber(1) === 30);
+  console.log(daysInMonthByNumber(2) === 29);
+  console.log(daysInMonthByNumber(3) === 30);
+  console.log(daysInMonthByNumber(4) === 30);
+  console.log(daysInMonthByNumber(5) === 30);
+  console.log(daysInMonthByNumber(6) === 30);
+  console.log(daysInMonthByNumber(7) === 30);
+  console.log(daysInMonthByNumber(8) === 30);
+  console.log(daysInMonthByNumber(9) === 30);
+  console.log(daysInMonthByNumber(10) === 30);
+  console.log(daysInMonthByNumber(11) === 30);
+  console.log(daysInMonthByNumber(12) === 30);
 }
 
 module.exports = daysInMonthByNumber;

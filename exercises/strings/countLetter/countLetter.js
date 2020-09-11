@@ -23,8 +23,11 @@
 
 function countLetter(string, letter) {
   // This is your job. :)
+  var re = RegExp (string,'gi');
+  return string.match(re).length
 }
-
+var str = 'I will code Javascript'
+console.log(count(str,'e'));
 if (require.main === module) {
   console.log('Running sanity checks for countLetter:');
 
