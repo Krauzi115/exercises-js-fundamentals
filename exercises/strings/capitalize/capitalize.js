@@ -11,8 +11,16 @@
  */
 
 function capitalize(string) {
-  // This is your job. :)
+  console.log(string[0].toUpperCase()+ sentence.slice(1)); // This is your job. :)
+
 }
+const sentence = 'first example towards javascript.'; // All caps example
+console.log(sentence.toUpperCase());
+capitalize(sentence)
+console.log(sentence.slice(1));// collab with Kevin, Tsega-ab, and Trey
+
+
+
 
 if (require.main === module) {
   console.log('Running sanity checks for capitalize:');

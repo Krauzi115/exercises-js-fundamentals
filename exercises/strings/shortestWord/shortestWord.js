@@ -8,6 +8,7 @@
  */
 
 function shortestWord(string) {
+  
   // This is your job. :)
 }
 

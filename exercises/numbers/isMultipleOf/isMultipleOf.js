@@ -14,10 +14,21 @@
  */
 function isMultipleOf(n, d) {
   // This is your job. :)
-
+if (n%d==0) {
+  return true; 
+}
+else {
+  return false;
+}
   // Consider handling two cases separately:
   //   1. When d === 0
   //   2. When d !== 0
+   
+  // if ((g*d) = n) {
+  //   return true
+  // } else {
+  //   return false
+  
 }
 
 if (require.main === module) {

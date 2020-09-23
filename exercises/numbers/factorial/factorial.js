@@ -24,10 +24,17 @@
  */
 function factorial(n) {
   // This is your job. :)
+  if (n == 0) 
+        return 1;
+  // else if (n == 0) 
+  //     return 1;
+  else {
+      return (n * factorial(n - 1)); // collab with Kevin and Tsgea-ab, online resource model but discussed to an understanding
+  }
 }
-
 if (require.main === module) {
   console.log('Running sanity checks for factorial:');
+  console.log(factorial(3));
 
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?

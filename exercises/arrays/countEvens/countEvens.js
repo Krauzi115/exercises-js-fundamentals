@@ -13,8 +13,9 @@
  */
 function countEvens(array) {
   // This is your job. :)
+  array = [0, 2, 4, 6];
 }
-
+console.log(array)
 if (require.main === module) {
   console.log('Running sanity checks for countEvens:');
 

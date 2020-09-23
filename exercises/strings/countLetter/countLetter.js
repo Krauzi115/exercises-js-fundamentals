@@ -23,13 +23,21 @@
 
 function countLetter(string, letter) {
   // This is your job. :)
-  var re = RegExp (string,'gi');
-  return string.match(re).length
+  //collab with Kevin and Tsega-ab
+  string.split('');
+  
 }
-var str = 'I will code Javascript'
-console.log(count(str,'e'));
+
+
+
+console.log(count);
 if (require.main === module) {
   console.log('Running sanity checks for countLetter:');
+  const str = 'Rubble'
+  const word = str.split('')
+  console.log(words[6]) 
+  console.log(countLetter('rubble, b'));
+
 
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
