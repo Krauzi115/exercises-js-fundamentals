@@ -17,7 +17,10 @@
 
 function toLowerCase(string) {
   // This is your job. :)
+  console.log(string.toLowerCase());
 }
+const sentence = 'RUby and SCrim be the greatest';
+toLowerCase(sentence);
 
 if (require.main === module) {
   console.log('Running sanity checks for toLowerCase:');

@@ -17,8 +17,10 @@
 
 function toUpperCase(string) {
   // This is your job. :)
+  console.log(string.toUpperCase());
 }
-
+const sentence = 'ShAkeWell BE A great One Too';
+toUpperCase(sentence);
 if (require.main === module) {
   console.log('Running sanity checks for toUpperCase:');
 

@@ -9,6 +9,7 @@
 
 function longestWord(string) {
   // This is your job. :)
+  string = ''
 }
 
 if (require.main === module) {
