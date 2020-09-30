@@ -13,12 +13,16 @@
  */
 function allPositive(array) {
   // This is your job. :)
+  if (array >1) {
+    return true
+  } else {
+     return false
+  }
 }
 
 if (require.main === module) {
   console.log('Running sanity checks for allPositive:');
-let x = 3;
-console.log(x)
+console.log(allPositive([1, 2, 3, 4, 5]));
 
 
   // Add your own sanity checks here.

@@ -19,6 +19,11 @@
  * @returns {number} The mean of the numbers in the array
  */
 function mean(array) {
+  if (array ===0) {
+    return true
+  } else {
+     return false
+  }
   // This is your job. :)
 }
 

@@ -17,11 +17,13 @@
  */
 function firstIndexOf(haystack, needle) {
   // This is your job. :)
+  const artists = ['Shakewell', 'Ramirez', 'Scrim', 'Ruby'];
 }
+//incomplete, returning to later
 
 if (require.main === module) {
   console.log('Running sanity checks for firstIndexOf:');
-
+console.log()
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }
