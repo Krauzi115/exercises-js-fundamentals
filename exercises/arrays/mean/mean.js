@@ -19,17 +19,19 @@
  * @returns {number} The mean of the numbers in the array
  */
 function mean(array) {
-  if (array ===0) {
-    return true
-  } else {
-     return false
-  }
+  let end = 0
+  for (i = 0; i<array.length; i++){
+    end += array[i];
+    
+}
+  return end;
+
   // This is your job. :)
 }
-
+var group = [5, 6, 19];
 if (require.main === module) {
   console.log('Running sanity checks for mean:');
-
+  console.log(mean(group));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

@@ -16,8 +16,9 @@
  */
 function countValue(array, value) {
   // This is your job. :)
+  
 }
-
+let group = [6, 6, 6, 5, 9];
 if (require.main === module) {
   console.log('Running sanity checks for countValue:');
 

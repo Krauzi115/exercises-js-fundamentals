@@ -17,11 +17,13 @@
  */
 function lastIndexOf(haystack, needle) {
   // This is your job. :)
+  return selection
 }
-
+let pile = [7, 12, 66, 12];
+let selection = pile.indexOf(12, 2);
 if (require.main === module) {
   console.log('Running sanity checks for lastIndexOf:');
-
+  console.log(lastIndexOf([7, 12, 66, 12], 12));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

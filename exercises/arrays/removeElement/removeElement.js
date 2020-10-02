@@ -15,11 +15,14 @@
  */
 function removeElement(array, element) {
   // This is your job. :)
+  return lucky;
+  
 }
-
+delete lucky[9];
+let lucky = [5, 9, 2, 0];
 if (require.main === module) {
   console.log('Running sanity checks for removeElement:');
-
+  console.log([5, 9, 2, 0], 9);
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }
