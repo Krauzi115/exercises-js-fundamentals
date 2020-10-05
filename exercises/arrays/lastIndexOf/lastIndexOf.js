@@ -20,7 +20,7 @@ function lastIndexOf(haystack, needle) {
   return selection
 }
 let pile = [7, 12, 66, 12];
-let selection = pile.indexOf(12, 2);
+let selection = pile.lastIndexOf(12);
 if (require.main === module) {
   console.log('Running sanity checks for lastIndexOf:');
   console.log(lastIndexOf([7, 12, 66, 12], 12));
