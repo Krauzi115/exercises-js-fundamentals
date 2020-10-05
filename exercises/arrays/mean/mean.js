@@ -24,8 +24,8 @@ function mean(array) {
     end += array[i];
     
 }
-  return end;
-
+  let fill = end/array.length;
+  return fill;
   // This is your job. :)
 }
 var group = [5, 6, 19];

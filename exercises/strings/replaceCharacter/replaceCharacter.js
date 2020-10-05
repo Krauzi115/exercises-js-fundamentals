@@ -14,15 +14,13 @@
 
 function replaceCharacter(string, target, replaceWith) {
   // This is your job. :)
-string.split('')
-
-string = string.replace('e', '3');
-target = ''
+  compliment.replace(/e/, '3'); // still working on a different method for parameters above, but global indentifier is so cool!
 }
+const compliment = 'Connor is a creep'
 
 if (require.main === module) {
   console.log('Running sanity checks for replaceCharacter:');
-  console.log(replaceCharacter('creep', 'e', '3'));
+  console.log(replaceCharacter(compliment));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }
