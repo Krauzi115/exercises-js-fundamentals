@@ -14,9 +14,11 @@
 
 function replaceCharacter(string, target, replaceWith) {
   // This is your job. :)
-  compliment.replace(/e/, '3'); // still working on a different method for parameters above, but global indentifier is so cool!
+  let ending = compliment.replace('ee', '33');
+  return ending;
 }
 const compliment = 'Connor is a creep'
+
 
 if (require.main === module) {
   console.log('Running sanity checks for replaceCharacter:');

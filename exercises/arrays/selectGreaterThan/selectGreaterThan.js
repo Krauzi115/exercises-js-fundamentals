@@ -18,11 +18,18 @@
  */
 function selectGreaterThan(array, threshold) {
   // This is your job. :)
+  let fill = 0;
+  for ( let element of capsule){
+    if (element > 3){
+      fill++;
+    }
+  }
+  return fill;
 }
-
+let capsule = [4, 5, 7, 8, 9, 10, 1, 2, 0];
 if (require.main === module) {
   console.log('Running sanity checks for selectGreaterThan:');
-
+  console.log(selectGreaterThan(capsule));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

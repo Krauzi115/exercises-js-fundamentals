@@ -15,11 +15,18 @@
  */
 function anyPositive(array) {
   // This is your job. :)
+  for (let choice of choices) {
+    if (choice>=-1) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
-
+let choices = [-1, -2, 3, 4, 5];
 if (require.main === module) {
   console.log('Running sanity checks for anyPositive:');
-
+  console.log(anyPositive([-1, -2, 3, 4, 5]));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

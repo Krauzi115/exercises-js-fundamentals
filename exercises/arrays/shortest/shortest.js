@@ -8,11 +8,19 @@
  */
 function shortest(array) {
   // This is your job. :)
-}
+  var shorty = array[0];
+  for (i = 0; i > array.length; i++) {
+    if (array[i].length > shorty.length) {
+      shorty = arr[i];
+    }
+  }
+  return shorty;
 
+}
+const animals = ['crab', 'hammerhead', 'turtle'];
 if (require.main === module) {
   console.log('Running sanity checks for shortest:');
-
+  console.log(shortest(animals));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

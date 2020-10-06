@@ -15,11 +15,18 @@
  */
 function selectEvens(array) {
   // This is your job. :)
+  let close = 0;
+  for (let element of hive){
+    if (element %2 === 0){
+      close++;
+    }
+  }
+  return close;
 }
-
+let hive = [2, 6, 8, 11, 13];
 if (require.main === module) {
   console.log('Running sanity checks for selectEvens:');
-
+  console.log(selectEvens(hive));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

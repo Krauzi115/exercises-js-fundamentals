@@ -20,11 +20,17 @@
  */
 function includes(haystack, needle) {
   // This is your job. :)
+  for(let i = 0; i < pile.length; i++){
+    if(pile[i] === 'monkey'){
+      return true;
+    }
+  }
+  return false;
 }
-
+let pile = ['horse', 'monkey', 'chicken'];
 if (require.main === module) {
   console.log('Running sanity checks for includes:');
-
+  console.log(includes(['horse', 'monkey', 'chicken'], 'monkey'));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

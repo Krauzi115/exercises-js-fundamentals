@@ -13,13 +13,16 @@
  */
 function allPositive(array) {
   // This is your job. :)
-  if (array >1) {
-    return true
-  } else {
-     return false
+  for (let grip of grips) {
+    if (grip>0) {
+      return true;
+    } else {
+      return false;
+    }
   }
+  
 }
-
+let grips = [1, 2, 3, 4, 5];
 if (require.main === module) {
   console.log('Running sanity checks for allPositive:');
 console.log(allPositive([1, 2, 3, 4, 5]));

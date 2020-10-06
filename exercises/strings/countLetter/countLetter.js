@@ -28,14 +28,13 @@ function countLetter(string, letter) {
   
 }
 
-
+const str = 'Rubble'
+  const word = str.split('')
+  console.log(words[6]) 
 
 console.log(count);
 if (require.main === module) {
   console.log('Running sanity checks for countLetter:');
-  const str = 'Rubble'
-  const word = str.split('')
-  console.log(words[6]) 
   console.log(countLetter('rubble, b'));
 
 

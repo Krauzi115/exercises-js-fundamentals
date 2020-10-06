@@ -17,11 +17,19 @@
  */
 function countLessThan(array, threshold) {
   // This is your job. :)
+  var end = 0;
+  for (let element of collection) {
+    if (element<threshold) {
+      end++;
+    }
+     
 }
-
+return end;
+}
+let collection = [2, 4, 6, 0];
 if (require.main === module) {
   console.log('Running sanity checks for countLessThan:');
-
+  console.log(countLessThan([2, 4, 6, 0], 6));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

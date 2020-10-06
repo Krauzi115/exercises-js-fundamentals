@@ -14,12 +14,16 @@
 function countEvens(array) {
   // This is your job. :)
   var evenCount = 0;
-  for (i = 0; i<array.length; i++){
-    if (evenCount = array[i] % 2 === 0); // will be returning to this one later
+  let target = [];
+  for (i = 0; i<batch.length; i++){
+    if ( batch[i] % 2 === 0){
+      target.push(batch[i]);
+    }
+   
 }
-return evenCount
+return target;
 }
-let batch = [2, 4, 6];
+let batch = [2, 4, 6, 9];
 if (require.main === module) {
   console.log('Running sanity checks for countEvens:');
   console.log(countEvens(batch));

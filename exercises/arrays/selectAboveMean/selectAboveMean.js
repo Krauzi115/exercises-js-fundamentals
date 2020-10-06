@@ -16,8 +16,15 @@
  */
 function selectAboveMean(array) {
   // This is your job. :)
+  let cap = 0
+  for (i = 0; i<array.length; i++){
+    cap = array[i];
+    
 }
-
+  let fill > cap/array.length;
+  return fill;
+}
+let george = [3, 4, 5];
 if (require.main === module) {
   console.log('Running sanity checks for selectAboveMean:');
 

@@ -13,11 +13,15 @@
  */
 function removeEmpty(array) {
   // This is your job. :)
+  for (let speech of arrival) {
+    if (speech = '') {
+      delete arrival[''];
+    }
 }
-
+let arrival = ['My', 'Name', 'is', '', 'okay'];
 if (require.main === module) {
   console.log('Running sanity checks for removeEmpty:');
-
+  console.log(removeEmpty(arrival));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

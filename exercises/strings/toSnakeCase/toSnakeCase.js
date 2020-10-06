@@ -15,11 +15,12 @@
 
 function toSnakeCase(string) {
   // This is your job. :)
+  let raven = snakey
 }
-
+let snakey = 'fAR OUt'
 if (require.main === module) {
   console.log('Running sanity checks for toSnakeCase:');
-
+  console.log(toSnakeCase(snakey));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

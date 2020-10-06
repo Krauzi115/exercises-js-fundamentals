@@ -20,11 +20,20 @@
  */
 function selectLongerThan(array, threshold) {
   // This is your job. :)
-}
+  let spent = '';
+  for (i=0; i < letters.length; i++){
+    if (letters[i].length > spent){
+      spent= array[i].length;
+    }
 
+}
+return spent;
+    
+}
+let letters = ['', 'dd', 'd', 'ddd', 'eeeeee', 'fffff'];
 if (require.main === module) {
   console.log('Running sanity checks for selectLongerThan:');
-
+  console.log(selectLongerThan(['', 'dd', 'd', 'ddd', 'eeeeee', 'fffff'], 3));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

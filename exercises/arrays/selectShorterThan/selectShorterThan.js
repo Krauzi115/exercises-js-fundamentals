@@ -20,8 +20,17 @@
  */
 function selectShorterThan(array, threshold) {
   // This is your job. :)
-}
+  let ending = '';
+  for (i=0; i < groups.length; i++){
+    if (groups[i].length < ending){
+      ending= array[i].length;
+    }
 
+}
+return ending;
+ 
+}
+let groups = ['', 'dd', 'd', 'ddd', 'eeeeee', 'fffff'];  
 if (require.main === module) {
   console.log('Running sanity checks for selectShorterThan:');
 
