@@ -18,11 +18,14 @@
 
 function toTitleCase(string) {
   // This is your job. :)
+  return string.toLowerCase().split(' ').map(function (word) {
+    return (word.charAt(0).toUpperCase() + word.slice(1));
+  }).join(' ');
 }
 
 if (require.main === module) {
   console.log('Running sanity checks for toTitleCase:');
-
+console.log(toTitleCase('Anybody else getting this?'));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

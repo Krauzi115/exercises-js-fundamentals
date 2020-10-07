@@ -15,12 +15,24 @@
 
 function toSnakeCase(string) {
   // This is your job. :)
-  let raven = snakey
+  const string = 'JavaScript is like a baby';
+  const toSnakeCase = (str = '') => {
+     const stringCog = str.split(' ');
+     const snakeArr = stringCog.reduce((acc, val) => {
+        return acc.concat(val.toLowerCase());
+     }, []);
+     return snakeArr.join('_');
+  };
+  console.log(toSnakeCase(string));
+  // okay I really had a hard time finding a resource that talked about this.
+  //I understand that you have to break the string into subsections/substrings
+  //and use the reduce method to reduce the string to a single value while performing the split function, 
+
 }
-let snakey = 'fAR OUt'
+const str = 'JavaScipt is like a baby';
 if (require.main === module) {
   console.log('Running sanity checks for toSnakeCase:');
-  console.log(toSnakeCase(snakey));
+  console.log(toSnakeCase(string));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }
