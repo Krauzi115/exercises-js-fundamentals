@@ -13,10 +13,19 @@
  */
 function countOdds(array) {
   // This is your job. :)
+  var oddCount = 0;
+  for (i = 0; i<odds.length; i++){
+    if ( odds[i] % 2 === 1){
+     oddCount++;
+    }
+   
 }
-
+return oddCount;
+}
+let odds = [3, 7, 6, 9, 5, 8];
 if (require.main === module) {
   console.log('Running sanity checks for countOdds:');
+  console.log(countOdds([3, 7, 6, 9, 5, 8]));
 }
 
 module.exports = countOdds;

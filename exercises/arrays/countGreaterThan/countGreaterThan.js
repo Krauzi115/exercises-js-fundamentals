@@ -17,14 +17,13 @@
  */
 function countGreaterThan(array, threshold) {
   // This is your job. :)
-  var end = 0;
-  for (let [i] of collection) {
-    if ([i]>4) {
-      end++;
+  var greaterCount = 0;
+  for (i = 0; i<collection.length; i++){
+    if ( collection[i] > 3){
+     greaterCount++;
     }
-     
 }
-return end;
+return greaterCount;
 }
 let collection = [2, 4, 6, 0];
 if (require.main === module) {

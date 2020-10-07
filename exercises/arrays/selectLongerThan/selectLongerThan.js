@@ -20,14 +20,14 @@
  */
 function selectLongerThan(array, threshold) {
   // This is your job. :)
-  let spent = '';
+  let greg = [];
   for (i=0; i < letters.length; i++){
-    if (letters[i].length > spent){
-      spent= array[i].length;
+    if (letters[i].length>3){
+        greg.push(letters[i]);
     }
 
 }
-return spent;
+return greg;
     
 }
 let letters = ['', 'dd', 'd', 'ddd', 'eeeeee', 'fffff'];

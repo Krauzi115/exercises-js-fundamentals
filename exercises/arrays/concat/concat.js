@@ -23,18 +23,14 @@
  */
 function concat(leftArray, rightArray) {
   // This is your job. :)
-  return g.concat(f);
-  //return c.concat(d); this would work with numbers too 
+  var joined = cool + artist;
+return joined;
 }
-let g = ['My name is'];
-let f = ['Kyle Rauzi'];
-// let c = [2, 4, 6, 8];
-// let d = [10, 12, 14];
-
+let cool = ['Bio'];
+let artist = ['logy was fun'];
 if (require.main === module) {
   console.log('Running sanity checks for concat:');
-  console.log(concat(g, f));
-  console.log(concat(c, d));
+  console.log(concat(cool, artist));
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }

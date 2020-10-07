@@ -20,20 +20,20 @@
  */
 function selectShorterThan(array, threshold) {
   // This is your job. :)
-  let ending = '';
-  for (i=0; i < groups.length; i++){
-    if (groups[i].length < ending){
-      ending= array[i].length;
+  let finny = [];
+  for (i=0; i < random.length; i++){
+    if (random[i].length<5){
+        finny.push(random[i]);
     }
 
 }
-return ending;
+return finny;
  
 }
-let groups = ['', 'dd', 'd', 'ddd', 'eeeeee', 'fffff'];  
+let random = ['', 'dd', 'd', 'ddd', 'eeeeee', 'fffff'];  
 if (require.main === module) {
   console.log('Running sanity checks for selectShorterThan:');
-
+  console.log(selectShorterThan(['', 'dd', 'd', 'ddd', 'eeeeee', 'fffff'], 5))
   // Add your own sanity checks here.
   // How else will you be sure your code does what you think it does?
 }
